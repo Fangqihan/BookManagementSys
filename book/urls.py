@@ -1,6 +1,7 @@
 from django.conf.urls import url,include
 from book.views import PublisherView, BookView, AuthorView
 
+
 urlpatterns = [
     url(r'^v1/publishers/$', PublisherView.as_view({"get":"list","post":"create"})),
     url(r'^v1/publishers/(?P<pk>\d+)/$', PublisherView.as_view(

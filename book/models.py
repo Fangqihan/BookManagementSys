@@ -31,14 +31,4 @@ class Book(models.Model):
         return self.title
 
 
-class UserInfo(models.Model):
-    username = models.CharField(max_length=32)
-    password = models.CharField(max_length=32)
-    email = models.CharField(max_length=64)
-
-
-class Token(models.Model):
-    value = models.CharField(max_length=64)  # session_key
-    user = models.OneToOneField(UserInfo)  # 只能登陆一次，再次登陆则会重新生成token值
-
 

@@ -1,20 +1,27 @@
 from .models import Publisher, Book, Author
 from .my_serializers import PublisherSerializer, AuthorSerializer, BookSerializer
 from rest_framework import viewsets
+from rest_framework.authentication import BaseAuthentication
+from my_auth.auth import TokenAuth
 
 
-class PublisherView(viewsets.ModelViewSet):
+class AuthView(BaseAuthentication):
+    authentication_classes = [TokenAuth,]
+
+
+class PublisherView(AuthView, viewsets.ModelViewSet):
     queryset = Publisher.objects.all()
     serializer_class = PublisherSerializer
 
 
-class BookView(viewsets.ModelViewSet):
+class BookView(AuthView,viewsets.ModelViewSet):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
 
 
-class AuthorView(viewsets.ModelViewSet):
+class AuthorView(AuthView,viewsets.ModelViewSet):
     queryset = Author.objects.all()
     serializer_class = AuthorSerializer
+
 
 

@@ -24,5 +24,3 @@ class AuthorSerializer(serializers.ModelSerializer):
 
 
 
-
-
