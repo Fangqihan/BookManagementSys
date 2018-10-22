@@ -1,5 +1,5 @@
 from django.conf.urls import url,include
-from book.views import PublisherView, BookView, AuthorView
+from book.views import PublisherView, BookView, AuthorView, CommentView
 
 
 urlpatterns = [
@@ -17,5 +17,14 @@ urlpatterns = [
     url(r'^v1/authors/(?P<pk>\d+)/$', AuthorView.as_view(
         {"get":'retrieve',"put":"update","delete":"destroy"}
     )),
+
+    url(r'^v1/comments/$', CommentView.as_view({"get":"list","post":"create"})),
+    url(r'^v1/comments/(?P<pk>\d+)/$', CommentView.as_view(
+        {"get":'retrieve',"put":"update","delete":"destroy"}
+    )),
 ]
+
+
+
+
 
