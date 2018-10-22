@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96c5fe9b-3c41-42f5-a071-47aa0f36d2e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/book/migrations/0007_comments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/migrations/0008_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/migrations/0009_auto_20181022_0837.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/migrations/0010_auto_20181022_0840.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/migrations/0011_auto_20181022_0903.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_auth/permissions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae2fe9fb-c9f2-4b27-bccd-e4ea50914b83.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f1b09976-f636-4541-87b9-67e71c341a52.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f1b09976-f636-4541-87b9-67e71c341a52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/migrations/0012_auto_20181022_1445.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/migrations/0013_auto_20181022_1502.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/my_serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/my_serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +54,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="144">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -75,8 +66,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="370">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -84,8 +75,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="288">
+              <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -93,8 +84,8 @@
       <file leaf-file-name="my_serializers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book/my_serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+            <state relative-caret-position="219">
+              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -111,52 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book_book_authors" pinned="false" current-in-tab="false">
-        <entry file="das://f1b09976-f636-4541-87b9-67e71c341a52/schema/main/table/book_book_authors">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relations.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/relations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-              <folding>
-                <element signature="e#8469#9498#0" />
-                <element signature="e#9550#15323#0" />
-                <element signature="e#15387#16064#0" />
-                <element signature="e#16109#17013#0" />
-                <element signature="e#17051#20369#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3026">
-              <caret line="845" column="6" selection-start-line="845" selection-start-column="6" selection-end-line="845" selection-end-column="6" />
-              <folding>
-                <element signature="e#34476#37167#0" />
-                <element signature="e#36092#36897#0" />
-                <element signature="e#37225#37952#0" />
-                <element signature="e#38028#40771#0" />
-                <element signature="e#40903#44806#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="494" selection-start-line="494" selection-end-line="494" />
+            <state relative-caret-position="686">
+              <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
               <folding>
                 <element signature="e#4554#4912#0" />
                 <element signature="e#5444#5624#0" />
@@ -207,9 +157,9 @@
         <option value="$USER_HOME$/my_env/Lib/site-packages/rest_framework/mixins.py" />
         <option value="$PROJECT_DIR$/my_auth/permissions.py" />
         <option value="$PROJECT_DIR$/book/admin.py" />
-        <option value="$PROJECT_DIR$/book/models.py" />
         <option value="$PROJECT_DIR$/book/urls.py" />
         <option value="$PROJECT_DIR$/book/views.py" />
+        <option value="$PROJECT_DIR$/book/models.py" />
         <option value="$PROJECT_DIR$/book/my_serializers.py" />
       </list>
     </option>
@@ -336,12 +286,12 @@
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50064266" side_tool="true" weight="0.32341" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.4993573" visible="true" weight="0.24598931" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.4993573" visible="true" weight="0.29010695" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32882273" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32880434" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3275401" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1188946" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12017995" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" visible="true" weight="0.20372751" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -373,10 +323,17 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="31" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/book/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -391,9 +348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -428,7 +382,6 @@
           <folding>
             <element signature="e#2603#2803#0" />
             <element signature="e#2885#3279#0" />
-            <element signature="e#3606#4419#0" />
             <element signature="e#5685#5910#0" />
             <element signature="e#5969#6130#0" />
             <element signature="e#6180#7117#0" />
@@ -491,9 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,12 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding>
-            <element signature="e#785#1649#0" />
-            <element signature="e#1705#2895#0" />
-            <element signature="e#2946#3122#0" />
-            <element signature="e#3160#3578#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,35 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/generics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="e#1749#2726#0" />
-            <element signature="e#2762#3754#0" />
-            <element signature="e#3811#4123#0" />
-            <element signature="e#4169#4769#0" />
-            <element signature="e#4817#5018#0" />
-            <element signature="e#5069#5572#0" />
-            <element signature="e#5621#5940#0" />
-            <element signature="e#5993#6228#0" />
-            <element signature="e#6282#6476#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1278">
           <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f1b09976-f636-4541-87b9-67e71c341a52/schema/main/table/book_publisher">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -639,9 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,19 +572,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://f1b09976-f636-4541-87b9-67e71c341a52/schema/main/table/book_comments">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://f1b09976-f636-4541-87b9-67e71c341a52/schema/main/table/book_comments" />
     <entry file="das://f1b09976-f636-4541-87b9-67e71c341a52/schema/main/table/book_comment">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -690,10 +597,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/my_env/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="181" column="8" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/my_env/Lib/site-packages/django/views/decorators/csrf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14184">
+          <caret line="845" column="6" selection-start-line="845" selection-start-column="6" selection-end-line="845" selection-end-column="6" />
+          <folding>
+            <element signature="e#34476#37167#0" />
+            <element signature="e#36092#36897#0" />
+            <element signature="e#37225#37952#0" />
+            <element signature="e#38028#40771#0" />
+            <element signature="e#40903#44806#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/relations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+          <folding>
+            <element signature="e#8469#9498#0" />
+            <element signature="e#9550#15323#0" />
+            <element signature="e#15387#16064#0" />
+            <element signature="e#16109#17013#0" />
+            <element signature="e#17051#20369#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="494" selection-start-line="494" selection-end-line="494" />
+        <state relative-caret-position="686">
+          <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
           <folding>
             <element signature="e#4554#4912#0" />
             <element signature="e#5444#5624#0" />
@@ -709,24 +658,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/my_env/Lib/site-packages/django/core/handlers/base.py">
+    <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/generics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="181" column="8" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/my_env/Lib/site-packages/django/views/decorators/csrf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="270">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#1749#2726#0" />
+            <element signature="e#2762#3754#0" />
+            <element signature="e#3811#4123#0" />
+            <element signature="e#4169#4769#0" />
+            <element signature="e#4817#5018#0" />
+            <element signature="e#5069#5572#0" />
+            <element signature="e#5621#5940#0" />
+            <element signature="e#5993#6228#0" />
+            <element signature="e#6282#6476#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/viewsets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="178">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
           <folding>
             <element signature="e#2603#2803#0" />
             <element signature="e#2885#3279#0" />
@@ -737,55 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://f1b09976-f636-4541-87b9-67e71c341a52/schema/main/table/book_author">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3026">
-          <caret line="845" column="6" selection-start-line="845" selection-start-column="6" selection-end-line="845" selection-end-column="6" />
-          <folding>
-            <element signature="e#34476#37167#0" />
-            <element signature="e#36092#36897#0" />
-            <element signature="e#37225#37952#0" />
-            <element signature="e#38028#40771#0" />
-            <element signature="e#40903#44806#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/my_env/Lib/site-packages/rest_framework/relations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-          <folding>
-            <element signature="e#8469#9498#0" />
-            <element signature="e#9550#15323#0" />
-            <element signature="e#15387#16064#0" />
-            <element signature="e#16109#17013#0" />
-            <element signature="e#17051#20369#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,10 +704,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://f1b09976-f636-4541-87b9-67e71c341a52/schema/main/table/book_publisher">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="370">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -810,10 +735,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book/my_serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        <state relative-caret-position="219">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
